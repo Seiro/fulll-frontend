@@ -1,6 +1,5 @@
 import { render } from "react-dom";
-
-import App from "./App";
+import Nav from "./nav";
 
 const rootElement = document.getElementById("root");
-render(<App />, rootElement);
+render(<Nav />, rootElement);
